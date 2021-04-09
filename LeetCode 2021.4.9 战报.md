@@ -1,6 +1,6 @@
 ### LeetCode 2021.4.9 战报
 
-<img src="C:\Users\Administrator\Desktop\QQ截图20210409160412.png" style="float:left" />
+<img src="/pictures/2021.4.9.png" style="float:left" />
 
 竞赛积分 ： 1636
 
