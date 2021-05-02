@@ -1,6 +1,6 @@
 ### LeetCode 2021.4.9 战报
 
-<img src="/pictures/2021.4.9.png" style="float:left" />
+
 
 竞赛积分 ： 1636
 
@@ -14,7 +14,7 @@
 
 ​	Hard ： 45
 
-
+![](pictures/2021.4.9.png)
 
 Normal难度题数突破200大关，总题数突破700大关，祝贺祝贺！
 
