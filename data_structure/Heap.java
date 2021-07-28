@@ -23,6 +23,7 @@ public class Heap {
             if (arr[i] >= l) {
                 return;
             }
+            swap(arr, i, li);
             adjust(li);
             return;
         }
