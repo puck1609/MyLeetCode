@@ -1,7 +1,10 @@
-public class TreeNode {
+public class ListNode {
+    ListNode next;
     int val;
-    TreeNode left, right;
-    TreeNode(int x) {
-        val = x;
+    ListNode() {
+
+    }
+    ListNode(int val) {
+        this.val = val;
     }
 }
