@@ -6,9 +6,18 @@ public class Sorter {
     }
     public void sort(int[] arr, SortStrategy strategy) {
         switch (strategy) {
-            case QUICKSORT -> Quicksort(arr);
-            case MERGESORT -> Mergesort(arr);
-            case HEAPSORT -> Heapsort(arr);
+            case QUICKSORT : {
+                Quicksort(arr);
+                break;
+            }
+            case MERGESORT : {
+                Mergesort(arr);
+                break;
+            }
+            case HEAPSORT : {
+                Heapsort(arr);
+                break;
+            }
         }
     }
     private void Quicksort(int[] arr) {
