@@ -1,4 +1,6 @@
-package data_structure;
+package data_structure.parser;
+
+import data_structure.base.TreeNode;
 
 import java.util.*;
 

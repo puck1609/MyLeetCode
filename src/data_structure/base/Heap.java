@@ -1,10 +1,10 @@
-package data_structure;
+package data_structure.base;
 
 public class Heap {
     private int[] arr;
     private int len;
     static final int INVALID = Integer.MIN_VALUE;
-    Heap(int[] in) {
+    public Heap(int[] in) {
         arr = in;
         len = arr.length;
         init();

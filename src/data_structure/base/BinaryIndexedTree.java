@@ -1,10 +1,10 @@
-package data_structure;
+package data_structure.base;
 
 public class BinaryIndexedTree {
     private int[] origin;
     private int[] arr;
     private int len;
-    BinaryIndexedTree(int[] in) {
+    public BinaryIndexedTree(int[] in) {
         len = in.length;
         arr = new int[len + 1];
         origin = new int[len];

@@ -1,8 +1,11 @@
-package data_structure;
+package data_structure.parser;
 
 // XML解析器
 public class XmlParser {
     private int i;
+    public XmlParser() {
+
+    }
     public String ParseXml(String xml, String path) {
         String[] node = path.split("\\.");
         for (String s : node) {

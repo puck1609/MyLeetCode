@@ -1,22 +1,26 @@
-package data_structure;
+package data_structure.sort;
 
+import data_structure.base.Heap;
 import java.util.Random;
 
 public class Sorter {
     public enum SortStrategy {
         QUICKSORT, MERGESORT, HEAPSORT;
     }
+    public Sorter() {
+
+    }
     public void sort(int[] arr, SortStrategy strategy) {
         switch (strategy) {
-            case QUICKSORT : {
+            case QUICKSORT:{
                 Quicksort(arr);
                 break;
             }
-            case MERGESORT : {
+            case MERGESORT:{
                 Mergesort(arr);
                 break;
             }
-            case HEAPSORT : {
+            case HEAPSORT:{
                 Heapsort(arr);
                 break;
             }

@@ -1,4 +1,4 @@
-package data_structure;
+package data_structure.parser;
 
 import java.util.*;
 
@@ -6,7 +6,7 @@ public class Calculator {
     Deque<Character> ops;
     Deque<Integer> nums;
     Map<Character, Integer> prior;
-    Calculator() {
+    public Calculator() {
         ops = new LinkedList<>();
         nums = new LinkedList<>();
         prior = new HashMap<>();

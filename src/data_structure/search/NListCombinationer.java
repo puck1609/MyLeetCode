@@ -1,4 +1,4 @@
-package data_structure;
+package data_structure.search;
 
 import java.util.*;
 
@@ -6,11 +6,11 @@ import java.util.*;
 public class NListCombinationer {
     List<List<String>> list;
     int len;
-    NListCombinationer(List<List<String>> in) {
+    public NListCombinationer(List<List<String>> in) {
         list = in;
         len = in.size();
     }
-    List<List<String>> CalCombination() {
+    public List<List<String>> CalCombination() {
         List<List<String>> res = new ArrayList<>();
         int[] indexes = new int[len + 1];
         int p = len;
