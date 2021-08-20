@@ -1,3 +1,5 @@
+package data_structure;
+
 import java.util.Random;
 
 public class Sorter {

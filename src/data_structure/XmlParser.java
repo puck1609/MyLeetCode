@@ -1,3 +1,5 @@
+package data_structure;
+
 // XML解析器
 public class XmlParser {
     private int i;

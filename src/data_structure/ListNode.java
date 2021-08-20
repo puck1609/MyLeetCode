@@ -1,3 +1,5 @@
+package data_structure;
+
 public class ListNode {
     ListNode next;
     int val;

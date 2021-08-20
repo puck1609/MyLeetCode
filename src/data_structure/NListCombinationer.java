@@ -1,3 +1,5 @@
+package data_structure;
+
 import java.util.*;
 
 // 使用迭代解决N个字符串列表的组合问题，节省递归栈的空间消耗

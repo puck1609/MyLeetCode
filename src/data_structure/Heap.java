@@ -1,3 +1,5 @@
+package data_structure;
+
 public class Heap {
     private int[] arr;
     private int len;

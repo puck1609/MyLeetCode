@@ -1,3 +1,5 @@
+package data_structure;
+
 public class BinaryIndexedTree {
     private int[] origin;
     private int[] arr;
