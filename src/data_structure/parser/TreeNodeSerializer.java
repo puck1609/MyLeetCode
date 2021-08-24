@@ -5,8 +5,7 @@ import data_structure.base.TreeNode;
 import java.util.*;
 
 public class TreeNodeSerializer {
-
-    public String serialize(TreeNode root) {
+    public static String serialize(TreeNode root) {
         Deque<TreeNode> q = new LinkedList<>();
         StringBuilder sb = new StringBuilder();
         q.offer(root);
@@ -31,8 +30,7 @@ public class TreeNodeSerializer {
         if (sb.length() == 0) return "[]";
         return "[" + sb.substring(0, sb.length() - 1) + "]";
     }
-
-    public TreeNode deserialize(String data) {
+    public static TreeNode deserialize(String data) {
         data = data.substring(1, data.length() - 1);
         if (data.length() == 0) return null;
         String[] strs = data.split(",");
