@@ -8,7 +8,7 @@ public class Solution {
         solution.Test();
     }
     void Test() {
-
+        BinaryIndexedTree bit = new BinaryIndexedTree(new int[]{0,0,0,0,0});
     }
 
 }

@@ -4,7 +4,7 @@ public class BinaryIndexedTree {
     private int[] diff;
     private int[] Mdiff;
     private int len;
-    BinaryIndexedTree(int[] in) {
+    public BinaryIndexedTree(int[] in) {
         len = in.length;
         diff = new int[len + 1];
         Mdiff = new int[len + 1];
