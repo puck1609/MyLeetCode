@@ -35,6 +35,9 @@ public class BinaryIndexedTree {
         Update(l, add);
         Update(r + 1, -add);
     }
+    public int RangeUpdate(int l, int r) {
+        return Query(r + 1) - Query(l);
+    }
     public void GetArr(int[] in) {
         if (in.length != len) return;
         for (int i = 0; i < in.length; i++) {
