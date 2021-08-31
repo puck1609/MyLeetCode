@@ -1,6 +1,4 @@
-import java.util.*;
-import data_structure.base.*;
-import data_structure.parser.*;
+import data_structure.parser.TreeNodeSerializer;
 
 public class Solution {
     public static void main(String[] args) {
@@ -8,7 +6,7 @@ public class Solution {
         solution.Test();
     }
     void Test() {
-        BinaryIndexedTree bit = new BinaryIndexedTree(new int[]{0,0,0,0,0});
+
     }
 
 }
