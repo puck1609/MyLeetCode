@@ -10,5 +10,5 @@ public class Solution {
     void Test() {
 
     }
-    
+
 }
