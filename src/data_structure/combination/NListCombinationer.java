@@ -1,4 +1,4 @@
-package data_structure.search;
+package data_structure.combination;
 
 import java.util.*;
 
